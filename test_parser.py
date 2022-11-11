@@ -1,14 +1,9 @@
 from selenium.webdriver.common.by import By
 
+link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
-
-
-link = "http://selenium1py.pythonanywhere.com/"
-
-def test_guest_should_see_login_link_pass(browser):
+def test_check_button_add_to_basket(browser):
     browser.get(link)
-    browser.find_element(By.CSS_SELECTOR, "#login_link")
+    button = browser.find_element(By.CSS_SELECTOR, "[type=\'submit\']")
+    assert button ,"---- Add to busket button is not found ----"
 
-def test_guest_should_see_login_link_fail(browser):
-    browser.get(link)
-    browser.find_element(By.CSS_SELECTOR, "#magic_link")

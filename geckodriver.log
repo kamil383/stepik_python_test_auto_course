@@ -1,1 +1,43 @@
 1668111498807	geckodriver	INFO	Listening on 127.0.0.1:54955
+1668159342134	geckodriver	INFO	Listening on 127.0.0.1:51146
+1668159606389	geckodriver	INFO	Listening on 127.0.0.1:53579
+1668160106062	geckodriver	INFO	Listening on 127.0.0.1:54524
+1668161011905	geckodriver	INFO	Listening on 127.0.0.1:56529
+1668162035329	geckodriver	INFO	Listening on 127.0.0.1:58245
+1668162874555	geckodriver	INFO	Listening on 127.0.0.1:60275
+1668162940766	geckodriver	INFO	Listening on 127.0.0.1:60388
+1668163029780	geckodriver	INFO	Listening on 127.0.0.1:60547
+1668163032795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60548" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Kamil\\AppData\\Local\\Temp\\rust_mozprofilegKLRYP"
+1668163033388	Marionette	INFO	Marionette enabled
+1668163033396	Marionette	INFO	Listening on port 60561
+Read port: 60561
+WebDriver BiDi listening on ws://127.0.0.1:60548
+1668163033596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kamil\\AppData\\Local\\Temp\\rust_mozprofilegKLRYP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60548/devtools/browser/18d322c5-9cd8-4b4c-8c6f-7beebc89cb8e
+JavaScript error: http://selenium1py.pythonanywhere.com/fr/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1668163044155	Marionette	INFO	Stopped listening on port 60561
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668163063434	geckodriver	INFO	Listening on 127.0.0.1:60625
+1668163066463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60626" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Kamil\\AppData\\Local\\Temp\\rust_mozprofile6WjQOf"
+1668163067030	Marionette	INFO	Marionette enabled
+1668163067037	Marionette	INFO	Listening on port 60639
+Read port: 60639
+WebDriver BiDi listening on ws://127.0.0.1:60626
+1668163067272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kamil\\AppData\\Local\\Temp\\rust_mozprofile6WjQOf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60626/devtools/browser/626dae35-9925-48d0-9898-4603aa85990f
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1668163083140	Marionette	INFO	Stopped listening on port 60639
+1668163213143	geckodriver	INFO	Listening on 127.0.0.1:60821
+1668163216132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60822" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Kamil\\AppData\\Local\\Temp\\rust_mozprofile9kaf8q"
+1668163216764	Marionette	INFO	Marionette enabled
+1668163216773	Marionette	INFO	Listening on port 60835
+Read port: 60835
+WebDriver BiDi listening on ws://127.0.0.1:60822
+1668163216979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kamil\\AppData\\Local\\Temp\\rust_mozprofile9kaf8q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60822/devtools/browser/fe206112-57d8-42b0-9c62-4662eacbb482
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1668163222785	Marionette	INFO	Stopped listening on port 60835
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
